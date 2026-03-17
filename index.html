@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>from a story left untold</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- NAV -->
+  <nav>
+    <span onclick="filterSelection('all')">all</span>
+    <span onclick="filterSelection('poem')">poem</span>
+    <span onclick="filterSelection('prose')">prose</span>
+    <span onclick="filterSelection('journal')">journal</span>
+    <span onclick="filterSelection('letters')">letters</span>
+    <span onclick="filterSelection('drafts')">archive</span>
+  </nav>
+
+  <header>
+    <h1>from a story left untold</h1>
+    <p class="subtitle">
+  <span>a quiet collection of feelings</span><br>
+  <span>that never found a home,</span><br>
+  <span>fragments that linger</span><br>
+  <span>long after everything else has left.</span>
+</p>
+  </header>
+
+  <!-- GRID -->
+  <section class="grid">
+
+    <!-- CARD -->
+    <div class="card poem">
+      <div class="card-inner">
+
+        <div class="meta">3 min read · poem</div>
+
+        <h2>i used to dislike coffee</h2>
+
+        <p class="excerpt">
+          the bitter aftertaste of something i used to know,  
+          lingering longer than it should.
+        </p>
+
+        <div class="open">open</div>
+
+        <div class="full">
+          <p>
+            i used to dislike coffee<br><br>
+            it reminded me of things that ended quietly<br><br>
+            but now,<br>
+            i sit with it<br>
+            like i sit with memories<br>
+            i no longer run from
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card prose">
+      <div class="card-inner">
+
+        <div class="meta">2 min read · prose</div>
+
+        <h2>untitled</h2>
+
+        <p class="excerpt">
+          there are things i never say out loud,  
+          but they echo anyway.
+        </p>
+
+        <div class="open">open</div>
+
+        <div class="full">
+          <p>
+            there are things i never say out loud<br><br>
+            they echo anyway<br>
+            in the quiet moments<br>
+            when i forget how to distract myself
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
